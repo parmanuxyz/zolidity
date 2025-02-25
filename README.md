@@ -3,6 +3,8 @@
 Zolidity is a language extension for the [Zed](https://zed.dev) editor.
 It provides syntax highlighting with [tree-sitter grammar](https://github.com/JoranHonig/tree-sitter-solidity)
 written by [@JoranHonig](https://github.com/JoranHonig). (ty!!)
+The `highlights.scm` tree sitter queries are copied from
+[`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter)
 
 It also provides limited lsp features using [`solidity-analyzer`](https://github.com/parmanuxyz/solidity-analyzer).
 Note: It is assumed that you already have `solidity-analyzer` installed
