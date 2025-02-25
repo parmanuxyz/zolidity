@@ -1,0 +1,16 @@
+id = "zolidity"
+name = "zed solidity extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Meet Mangukiya <meet@flamy.dev>"]
+description = "Solidity language extension for zed"
+repository = "https://github.com/parmanuxyz/zolidity"
+
+
+[grammars.solidity]
+repository = "https://github.com/JoranHonig/tree-sitter-solidity"
+rev = "d38dcd0b58b223c43e3f9265914fb3167dc624c6"
+
+[language_servers.solidity]
+name = "solidity-analyzer"
+languages = ["solidity"]

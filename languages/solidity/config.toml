@@ -1,0 +1,4 @@
+name = "solidity"
+grammar = "solidity"
+path_suffixes = ["sol"]
+line_comments = ["//", "///"]
